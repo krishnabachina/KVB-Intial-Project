@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+    .rightresources-position {
+        width: 1000px;
+        margin: auto;
+    }
+    .rightresources-position-name {
+        width: 500px;
+        float: left;
+        height: auto;
+    }
+    .rightresources-position-req {
+        width: 500px;
+        float: left;
+        height: auto;
+    }
+    .background-body {
+        background-color: bisque;
+    }
+    .rightresources {
+        position: relative;
+        font-family: inherit;
+        background-color: aquamarine;
+    }
+</style>
+<body class="background-body">
+    <form action="/action_page.php">
+        <div class="rightresources-position">
+        <div class="rightresources-position-name">
+            <h2 class="rightresources">Candidate Search</h2><br>
+            Name Search:<br>
+            <input type="search" name="fullname" value=""><br>
+            <br><button ng-click="addExp(expr)">Evaluate</button>
+        </div>
+        <div class="rightresources-position-req">
+            <h2 class="rightresources">Candidate Requirement</h2><br>
+            Requirement Search:<br>
+            <input type="search" name="fullname" value=""><br>
+            <br><button ng-click="addExp(expr)">Evaluate</button>
+        </div>
+        </div>
+    </form>
+</body>
+</html>
